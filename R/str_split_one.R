@@ -15,7 +15,6 @@
 #'
 #' y <- "192.168.0.1"
 #' str_split_one(y, pattern = stringr::fixed("."))
-#' strsplit1(x, split = ",")
 str_split_one <- function(string, pattern, n = Inf) {
   stopifnot(is.character(string), length(string) <= 1)
   if (length(string) == 1) {
