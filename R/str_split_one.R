@@ -28,8 +28,7 @@ str_split_one <- function(string, pattern, n = Inf) {
 #' @inheritParams stringr::str_split
 #'
 #' @return A character vector.
-#' @export new_function_name str_split_one
-#' @aliases str_split_one
+#' @export new_function_name
 #' @examples
 #' x <- "alfa,bravo,charlie,delta"
 #' new_function_name(x, pattern = ",")

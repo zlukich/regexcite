@@ -2,7 +2,6 @@
 % Please edit documentation in R/str_split_one.R
 \name{new_function_name}
 \alias{new_function_name}
-\alias{str_split_one}
 \title{Split a string}
 \usage{
 new_function_name(string, pattern, n = Inf)
