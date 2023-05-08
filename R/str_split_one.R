@@ -18,12 +18,9 @@ NULL
 
 
 #' @rdname package-deprecated
-#'
-#' @param string A character vector with, at most, one element.
-#' @inheritParams stringr::str_split
-#'
-#' @return A character vector.
 #' @export
+#'
+#' @md
 str_split_one <- function(string, pattern, n = Inf) {
   .Deprecated("new_function_name")
   new_function_name()
