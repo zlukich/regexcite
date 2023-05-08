@@ -31,7 +31,7 @@ You can install the development version of regexcite from [GitHub](https://githu
       
 ``` r
 # install.packages("devtools")
-devtools::install_github("jennybc/regexcite")
+devtools::install_github("zlukich/regexcite")
 ```
 
 ## Usage
@@ -53,17 +53,17 @@ That's exactly what `regexcite::str_split_one()` does.
 ```{r}
 library(regexcite)
 
-str_split_one(x, pattern = ",")
+new_function_name(x, pattern = ",")
 ```
 
-Use `str_split_one()` when the input is known to be a single string.
+Use `new_function_name()` when the input is known to be a single string.
 For safety, it will error if its input has length greater than one.
 
-`str_split_one()` is built on `stringr::str_split()`, so you can use its `n` argument and stringr's general interface for describing the `pattern` to be matched.
+`new_function_name()` is built on `stringr::str_split()`, so you can use its `n` argument and stringr's general interface for describing the `pattern` to be matched.
 
 ```{r}
-str_split_one(x, pattern = ",", n = 2)
+new_function_name(x, pattern = ",", n = 2)
 
 y <- "192.168.0.1"
-str_split_one(y, pattern = stringr::fixed("."))
+new_function_name(y, pattern = stringr::fixed("."))
 ```

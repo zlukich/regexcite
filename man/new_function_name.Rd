@@ -41,10 +41,10 @@ Split a string
 }
 \examples{
 x <- "alfa,bravo,charlie,delta"
-str_split_one(x, pattern = ",")
-str_split_one(x, pattern = ",", n = 2)
+new_function_name(x, pattern = ",")
+new_function_name(x, pattern = ",", n = 2)
 
 y <- "192.168.0.1"
-str_split_one(y, pattern = stringr::fixed("."))
+new_function_name(y, pattern = stringr::fixed("."))
 
 }
