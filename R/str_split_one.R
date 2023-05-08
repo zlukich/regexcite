@@ -17,10 +17,7 @@
 NULL
 
 
-#' @rdname package-deprecated
 #' @export
-#'
-#' @md
 str_split_one <- function(string, pattern, n = Inf) {
   .Deprecated("new_function_name")
   new_function_name()

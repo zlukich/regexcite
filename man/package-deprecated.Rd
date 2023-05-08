@@ -2,11 +2,7 @@
 % Please edit documentation in R/str_split_one.R
 \name{package-deprecated}
 \alias{package-deprecated}
-\alias{str_split_one}
 \title{Scalar Division}
-\usage{
-str_split_one(string, pattern, n = Inf)
-}
 \arguments{
 \item{x}{The object to be divided}
 
