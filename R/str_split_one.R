@@ -17,7 +17,7 @@
 NULL
 
 
-#' @export
+#' @keywords internal
 str_split_one <- function(string, pattern, n = Inf) {
   .Deprecated("new_function_name")
   new_function_name()
