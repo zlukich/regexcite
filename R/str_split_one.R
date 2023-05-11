@@ -16,8 +16,25 @@
 #' @md
 NULL
 
-#' @export
-#' @keywords internal
+#' Deprecated function(s) in the yourPackageName package
+#'
+#' These functions are provided for compatibility with older version of
+#' the yourPackageName package.  They may eventually be completely
+#' removed.
+#' @rdname yourPackageName-deprecated
+#' @name yourPackageName-deprecated
+#' @param ... Parameters to be passed to the modern version of the function
+#' @docType package
+#' @export  str_split_one
+#' @aliases str_split_one
+#' @section Details:
+#' \tabular{rl}{
+#'   \code{latinsquare.digram} \tab now a synonym for \code{\link{latinSquareDigram}}\cr
+#'   \code{Conv3Dto2D} \tab now a synonym for \code{\link{conv3Dto2D}}\cr
+#'   \code{Conv2Dto3D} \tab now a synonym for \code{\link{conv2Dto3D}}\cr
+#'   \code{dist3D.l} \tab now a synonym for \code{\link{dist3D}}\cr
+#' }
+#'
 str_split_one <- function(string, pattern, n = Inf) {
   .Deprecated("new_function_name")
   new_function_name()
