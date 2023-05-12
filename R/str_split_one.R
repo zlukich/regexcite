@@ -29,10 +29,7 @@ NULL
 #' @aliases str_split_one
 #' @section Details:
 #' \tabular{rl}{
-#'   \code{latinsquare.digram} \tab now a synonym for \code{\link{latinSquareDigram}}\cr
-#'   \code{Conv3Dto2D} \tab now a synonym for \code{\link{conv3Dto2D}}\cr
-#'   \code{Conv2Dto3D} \tab now a synonym for \code{\link{conv2Dto3D}}\cr
-#'   \code{dist3D.l} \tab now a synonym for \code{\link{dist3D}}\cr
+#'   \code{new_function_name()} \tab now a synonym for \code{\link{str_split_one()}}\cr
 #' }
 #'
 str_split_one <- function(string, pattern, n = Inf) {
